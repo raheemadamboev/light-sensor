@@ -1,4 +1,4 @@
-package xyz.teamgravity.lightsensor
+package xyz.teamgravity.lightsensor.presentation.activity
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -7,9 +7,10 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
-import xyz.teamgravity.lightsensor.ui.theme.LightSensorTheme
+import xyz.teamgravity.lightsensor.presentation.theme.LightSensorTheme
 
-class MainActivity : ComponentActivity() {
+class Main : ComponentActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {

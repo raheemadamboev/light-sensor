@@ -1,4 +1,4 @@
-package xyz.teamgravity.lightsensor.ui.theme
+package xyz.teamgravity.lightsensor.presentation.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

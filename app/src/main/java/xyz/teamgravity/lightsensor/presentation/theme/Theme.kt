@@ -1,4 +1,4 @@
-package xyz.teamgravity.lightsensor.ui.theme
+package xyz.teamgravity.lightsensor.presentation.theme
 
 import android.app.Activity
 import android.os.Build
