@@ -13,7 +13,7 @@ class MainViewModel @Inject constructor(
     private val sensor: MeasurableSensor,
 ) : ViewModel() {
 
-    var isDark: Boolean by mutableStateOf(false)
+    var dark: Boolean by mutableStateOf(false)
         private set
 
     init {
@@ -24,7 +24,7 @@ class MainViewModel @Inject constructor(
         sensor.start()
         sensor.setOnSensorValuesChanged { values ->
             val lux = values[0]
-            isDark = lux < 60F
+            dark = lux < 60F
         }
     }
 

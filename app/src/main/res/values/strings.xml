@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Light Sensor</string>
+
+    <!-- Main -->
+    <string name="dark">Phone is in dark room</string>
+    <string name="light">Phone is in light room</string>
 </resources>
